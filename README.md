@@ -12,7 +12,7 @@
 
 ### Стек технологий:
 
-React, React-dom,...
+React, React-dom, React-router-dom
 
 ### Установка (backend):
 
