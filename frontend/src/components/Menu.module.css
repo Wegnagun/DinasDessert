@@ -3,7 +3,8 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  background-color: #ff9a00;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .button {

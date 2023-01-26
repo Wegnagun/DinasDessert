@@ -3,13 +3,13 @@ const desserts = [
     id: 1,
     name: 'Птичье молочко',
     text: 'Торт птичье молоко',
-    image: 'empty',
+    image: '1',
   },
   {
     id: 2,
     name: 'Наполеон',
     text: 'Гадил чорт на поле он',
-    image: 'empty',
+    image: '2',
   },
   {
     id: 3,
