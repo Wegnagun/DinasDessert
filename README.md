@@ -17,12 +17,11 @@ React, React-dom, React-router-dom
 ### Установка (backend):
 
 #### Windows
+перейти в дирректорию backend
 
 `python -m venv venv `  
 `venv/Scripts/activate `  
 `python -m pip install --upgrade pip `
-
-перейти в дирректорию backend
 
 `pip install -r requirements.txt `
 
