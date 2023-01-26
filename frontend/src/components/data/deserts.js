@@ -23,6 +23,12 @@ const deserts = [
     text: 'Не та, что растет в огороде...',
     image: 'empty',
   },
+  {
+    id: 5,
+    name: 'Конфеты Му-Му',
+    text: 'молока ожидать не стоит...',
+    image: 'empty',
+  },
 ];
 
 export default deserts;

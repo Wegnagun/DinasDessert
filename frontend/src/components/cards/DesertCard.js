@@ -1,6 +1,8 @@
+import './DesertCard.css';
+
 function DesertCard({ name, text, image }) {
   return (
-    <div>
+    <div className="desert-card">
       {image}
       <h1>{name}</h1>
       <h2>{text}</h2>
