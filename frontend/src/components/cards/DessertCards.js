@@ -1,10 +1,10 @@
-import desserts from '../data/deserts';
-import DessertCard from './DesertCard';
-import './DesertCards.css';
+import desserts from '../data/desserts';
+import DessertCard from './DessertCard';
+import './DessertCards.css';
 
 function DessertCards() {
   return (
-    <div className="desert-cards">
+    <div className="dessert-cards">
       {desserts.map((person) => {
         return <DessertCard {...person} key={person.id} />;
       })}
