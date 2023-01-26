@@ -5,16 +5,16 @@ import Button from './UI/Button';
 const Menu = () => {
   return (
     <nav className={styles.menu}>
-      <NavLink to=".">
+      <NavLink to="." className={styles.button}>
         <Button>На главную</Button>
       </NavLink>
-      <NavLink to="news">
+      <NavLink to="news" className={styles.button}>
         <Button>Новости</Button>
       </NavLink>
-      <NavLink to="deserts">
+      <NavLink to="deserts" className={styles.button}>
         <Button>Тортики</Button>
       </NavLink>
-      <NavLink>
+      <NavLink to="reviews" className={styles.button}>
         <Button>Отзывы</Button>
       </NavLink>
     </nav>

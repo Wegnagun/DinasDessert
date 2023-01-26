@@ -1,5 +1,11 @@
+import DertCards from './cards/DesertCards';
+
 function Deserts() {
-  return <h1>Тортики</h1>;
+  return (
+    <div>
+      <DertCards />
+    </div>
+  );
 }
 
 export default Deserts;
