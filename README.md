@@ -12,11 +12,12 @@
 
 ### Стек технологий:
 
-React, React-dom, React-router-dom
+React, React-dom, React-router-dom, Django, DjangoRestFramework, Pillow
 
 ### Установка (backend):
 
 #### Windows
+
 перейти в дирректорию backend
 
 `python -m venv venv `  

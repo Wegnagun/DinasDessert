@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d07dcf20-48cd-45c2-add5-956f42aef155" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/deserts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/deserts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/deserts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/deserts/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/deserts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/deserts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dinasdesert/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dinasdesert/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="d07dcf20-48cd-45c2-add5-956f42aef155" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674720323085</updated>
-      <workItem from="1674720326514" duration="2914000" />
+      <workItem from="1674720326514" duration="3054000" />
     </task>
     <servers />
   </component>
