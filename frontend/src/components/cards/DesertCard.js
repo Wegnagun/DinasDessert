@@ -1,8 +1,8 @@
-import './DesertCard.css';
+import './DessertCard.css';
 
-function DesertCard({ name, text, image }) {
+function DessertCard({ name, text, image }) {
   return (
-    <div className="desert-card">
+    <div className="dessert-card">
       {image}
       <h1>{name}</h1>
       <h2>{text}</h2>
@@ -10,4 +10,4 @@ function DesertCard({ name, text, image }) {
   );
 }
 
-export default DesertCard;
+export default DessertCard;

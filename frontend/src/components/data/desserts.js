@@ -1,4 +1,4 @@
-const deserts = [
+const desserts = [
   {
     id: 1,
     name: 'Птичье молочко',
@@ -31,4 +31,4 @@ const deserts = [
   },
 ];
 
-export default deserts;
+export default desserts;

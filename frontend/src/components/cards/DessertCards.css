@@ -1,10 +1,10 @@
-.desert-cards {
+.dessert-cards {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.desert-cards:after {
+.dessert-cards:after {
   content: '';
   width: 100%;
   order: 0;

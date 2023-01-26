@@ -11,7 +11,7 @@ const Menu = () => {
       <NavLink to="news" className={styles.button}>
         <Button>Новости</Button>
       </NavLink>
-      <NavLink to="deserts" className={styles.button}>
+      <NavLink to="desserts" className={styles.button}>
         <Button>Тортики</Button>
       </NavLink>
       <NavLink to="reviews" className={styles.button}>
