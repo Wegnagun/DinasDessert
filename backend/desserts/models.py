@@ -27,8 +27,8 @@ class Dessert(models.Model):
 
     class Meta:
         ordering = ('-pub_date',)
-        verbose_name = 'Рецепт'
-        verbose_name_plural = 'Рецепты'
+        verbose_name = 'Десерт'
+        verbose_name_plural = 'Десерты'
 
     def __str__(self):
         return self.name

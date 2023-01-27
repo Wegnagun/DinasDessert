@@ -5,7 +5,7 @@ load_dotenv()
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('KEY', 'enter you Secret key')
-DEBUG = True
+DEBUG = os.environ.get('DEBUG', False)
 ALLOWED_HOSTS = os.environ.get('HOSTS', ['127.0.0.1'])
 
 INSTALLED_APPS = [
@@ -15,7 +15,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'desserts'
+    'desserts',
+    'news'
 ]
 
 MIDDLEWARE = [
@@ -28,7 +29,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'dinasdessert.urls'
+ROOT_URLCONF = 'dinasdesserts.urls'
 
 TEMPLATES = [
     {
@@ -46,7 +47,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'dinasdessert.wsgi.application'
+WSGI_APPLICATION = 'dinasdesserts.wsgi.application'
 
 DATABASES = {
     'default': {
