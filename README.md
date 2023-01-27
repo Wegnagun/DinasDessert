@@ -28,7 +28,7 @@ React, React-dom, React-router-dom, Django, DjangoRestFramework, Pillow
 
 #### Linux
 
-`python3 -m venv venv `  
+`python -m venv venv `  
 `source venv/bin/activate`  
 `python -m pip install --upgrade pip `  
 `pip install --upgrade setuptools ` опционально...  

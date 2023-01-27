@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Desert(models.Model):
+class Dessert(models.Model):
     """ Модель Десертов """
 
     name = models.CharField(
@@ -18,7 +18,7 @@ class Desert(models.Model):
     image = models.ImageField(
         blank=True,
         verbose_name='Изображение',
-        upload_to='deserts/images'
+        upload_to='desserts/images'
     )
     pub_date = models.DateTimeField(
         verbose_name='Дата публикации',

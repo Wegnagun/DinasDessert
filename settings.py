@@ -15,7 +15,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'deserts'
+    'desserts'
 ]
 
 MIDDLEWARE = [
@@ -28,7 +28,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'dinasdesert.urls'
+ROOT_URLCONF = 'dinasdessert.urls'
 
 TEMPLATES = [
     {
@@ -46,7 +46,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'dinasdesert.wsgi.application'
+WSGI_APPLICATION = 'dinasdessert.wsgi.application'
 
 DATABASES = {
     'default': {
