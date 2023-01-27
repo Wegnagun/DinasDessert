@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07dcf20-48cd-45c2-add5-956f42aef155" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/desserts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/desserts/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/desserts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/desserts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dinasdesserts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dinasdesserts/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dinasdesserts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dinasdesserts/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/news/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/news/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/news/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/news/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/news/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/news/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/news/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DinasDesert.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DinasDesert.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desserts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/desserts/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desserts/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desserts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/desserts/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desserts/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desserts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/desserts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dinasdesserts/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674720323085</updated>
       <workItem from="1674720326514" duration="3054000" />
-      <workItem from="1674834058054" duration="3792000" />
+      <workItem from="1674834058054" duration="4161000" />
     </task>
     <servers />
   </component>
