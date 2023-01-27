@@ -1,5 +1,11 @@
+import NewsCards from './cards/NewsCards';
+
 function News() {
-  return <h1>Новости</h1>;
+  return (
+    <>
+      <NewsCards />
+    </>
+  );
 }
 
 export default News;

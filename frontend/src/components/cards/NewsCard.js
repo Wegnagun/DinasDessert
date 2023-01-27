@@ -1,8 +1,8 @@
-import './DessertCard.css';
+import './NewsCard.css';
 
-function DessertCard({ name, text, image }) {
+function NewsCard({ pub_date, title, image, text }) {
   return (
-    <div className="dessert-card">
+    <div className="news-card">
       <img
         className="img"
         src={
@@ -11,11 +11,12 @@ function DessertCard({ name, text, image }) {
             : null
         }
         alt={image} /* вставить дефолтное изображение! */
-      />
-      <h1>{name}</h1>
+      ></img>
+      <h1>{title}</h1>
+      <h3>{pub_date}</h3>
       <h2>{text}</h2>
     </div>
   );
 }
 
-export default DessertCard;
+export default NewsCard;

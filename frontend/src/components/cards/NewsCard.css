@@ -1,15 +1,19 @@
-.dessert-card {
-  max-width: calc((100% - 20px) / 4);
+.news-card {
   padding: 10px;
   margin: 15px;
+  margin-bottom: 50px;
+  max-width: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #f8e4a2;
   border: 2px solid #460247;
   border-radius: 5%;
 }
 
-.dessert-card .img {
+.news-card .img {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  max-width: 500px;
   border-radius: 5%;
 }

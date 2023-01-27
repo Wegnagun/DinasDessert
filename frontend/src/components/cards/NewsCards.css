@@ -1,0 +1,8 @@
+.news-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  position: relative;
+}

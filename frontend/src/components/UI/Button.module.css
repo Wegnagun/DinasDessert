@@ -13,6 +13,6 @@
 
 .button:hover {
   background-color: #f9c5bd;
-  text-decoration: underline solid;
+  text-decoration: underline;
   border-radius: 50%;
 }
