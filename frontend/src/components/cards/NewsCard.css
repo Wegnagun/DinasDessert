@@ -11,6 +11,13 @@
   border-radius: 5%;
 }
 
+.pub-date {
+  margin-left: 45px;
+  margin-top: 30px;
+  display: flex;
+  justify-self: left;
+}
+
 .news-card .img {
   margin: 0 auto;
   margin-bottom: 25px;
