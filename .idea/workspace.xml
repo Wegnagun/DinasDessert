@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07dcf20-48cd-45c2-add5-956f42aef155" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/infra/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +53,16 @@
       <option name="presentableId" value="Default" />
       <updated>1674720323085</updated>
       <workItem from="1674720326514" duration="3054000" />
-      <workItem from="1674834058054" duration="5423000" />
+      <workItem from="1674834058054" duration="6112000" />
+      <workItem from="1674900522985" duration="3662000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="nginx.conf" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
