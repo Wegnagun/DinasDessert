@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07dcf20-48cd-45c2-add5-956f42aef155" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/desserts/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/media/desserts/images/1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dinasdesserts/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dinasdesserts/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/desserts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/desserts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dinasdesserts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dinasdesserts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/infra/nginx.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
       <updated>1674720323085</updated>
       <workItem from="1674720326514" duration="3054000" />
       <workItem from="1674834058054" duration="6112000" />
-      <workItem from="1674900522985" duration="5351000" />
+      <workItem from="1674900522985" duration="7889000" />
     </task>
     <servers />
   </component>

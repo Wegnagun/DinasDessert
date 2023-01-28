@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .models import Dessert
 
-# Create your views here.
+
+class DessertViewSet(viewsets.ModelViewSet):
+    """ Контроллер десертов """
+    queryset = Dessert.objects.all()
