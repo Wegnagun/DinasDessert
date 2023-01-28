@@ -3,7 +3,13 @@
 десерты Дины
 
 ---
-
+##### мои заметки:
+```
+sudo docker build -t wegnagun/dessets-backend:v0 .  
+sudo docker push wegnagun/dessets-backend:v0
+sudo docker-compose up  
+ ```
+---  
 ## Автор
 
 [Александр Фокин](https://github.com/Wegnagun)

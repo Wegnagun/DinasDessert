@@ -6,7 +6,8 @@ load_dotenv()
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('KEY', 'enter you Secret key')
 DEBUG = os.environ.get('DEBUG', False)
-ALLOWED_HOSTS = os.environ.get('HOSTS', ['127.0.0.1'])
+# ALLOWED_HOSTS = os.environ.get('HOSTS', ['127.0.0.1'])
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
