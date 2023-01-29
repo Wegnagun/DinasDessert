@@ -18,7 +18,8 @@ sudo docker-compose up
 
 ### Стек технологий:
 
-React, React-dom, React-router-dom, Django, DjangoRestFramework, Pillow
+Frontend: React, React-dom, React-router-dom,   
+Backend: Django, DjangoRestFramework, Pillow, Djoser  
 
 ### Установка (backend):
 

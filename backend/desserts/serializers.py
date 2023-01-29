@@ -12,5 +12,6 @@ class DessertSerializer(serializers.ModelSerializer):
             'id',
             'name',
             'text',
-            'pub_date'
+            'pub_date',
+            'image'
         )

@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .models import News
 
-# Create your views here.
+
+class NewsViewSet(viewsets.ModelViewSet):
+    """ Контроллер десертов """
+    queryset = News.objects.all()
