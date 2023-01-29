@@ -1,8 +1,8 @@
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
-from ..desserts.views import DessertViewSet
-from ..news.views import NewsViewSet
+from desserts.views import DessertViewSet
+from news.views import NewsViewSet
 
 admin.site.site_header = 'DinasDesserts - Десерты Дины'
 admin.site.index_title = 'Разделы админки DinasDesserts'
