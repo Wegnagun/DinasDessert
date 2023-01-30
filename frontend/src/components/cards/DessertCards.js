@@ -19,7 +19,7 @@ function DessertCards() {
     return <h1>Error: {error}</h1>;
   }
 
-  return (
+  /*   return (
     <div className="dessert-cards">
       {isLoading ? (
         <h1>Loading...</h1>
@@ -27,15 +27,15 @@ function DessertCards() {
         desserts.map((dessert) => <DessertCard {...dessert} key={dessert.id} />)
       )}
     </div>
-  );
+  ); */
 
-  /*   return (
+  return (
     <div className="dessert-cards">
       {desserts.map((dessert) => {
         return <DessertCard {...dessert} key={dessert.id} />;
       })}
     </div>
-  ); */
+  );
 }
 
 export default DessertCards;
