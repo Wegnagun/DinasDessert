@@ -8,8 +8,8 @@ services:
   #      - ../infra/.env
 
   backend:
-    #    image: wegnagun/dessets-backend:v0
-    image: wegnagun/dessets-backend:v0
+    #    image: wegnagun/desserts-backend:v0
+    image: wegnagun/desserts-backend:v0
     restart: always
     volumes:
       - static_value:/app/static/
@@ -22,7 +22,7 @@ services:
 
   frontend:
     #    image: wegnagun/foodgram-front:latest
-    image: dinasfrontend:latest
+    image: wegnagun/desserts-frontend:v0
     volumes:
       - ../frontend/:/app/result_build/
     depends_on:
