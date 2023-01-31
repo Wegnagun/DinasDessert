@@ -8,10 +8,12 @@ SECRET_KEY = os.environ.get('KEY', 'enter you Secret key')
 DEBUG = os.environ.get('DEBUG', False)
 # ALLOWED_HOSTS = os.environ.get('HOSTS', ['127.0.0.1'])
 ALLOWED_HOSTS = ['*']
-ALLOWED_ORIGINS = os.environ.get('ORIGINS', ['http://127.0.0.1']).split(',')
+ALLOWED_ORIGINS = os.environ.get(
+    'ORIGINS', ['http://127.0.0.1', 'http://localhost']
+)
 CSRF_TRUSTED_ORIGINS = os.environ.get(
-    'ORIGINS', ['http://127.0.0.1']
-).split(',')
+    'ORIGINS', ['http://127.0.0.1', 'http://localhost']
+)
 
 INSTALLED_APPS = [
     'django.contrib.admin',
