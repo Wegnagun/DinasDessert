@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <nav className={styles.menu}>
       <NavLink to="." className={styles.button}>
-        <Button>На главную</Button>
+        <Button>Обо мне</Button>
       </NavLink>
       <NavLink to="news" className={styles.button}>
         <Button>Новости</Button>
