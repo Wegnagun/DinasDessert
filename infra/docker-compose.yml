@@ -8,7 +8,6 @@ services:
   #      - ../infra/.env
 
   backend:
-    #    image: wegnagun/desserts-backend:v0
     image: wegnagun/desserts-backend:v0
     restart: always
     volumes:
@@ -21,7 +20,6 @@ services:
       - ../backend/.env
 
   frontend:
-    #    image: wegnagun/foodgram-front:latest
     image: wegnagun/desserts-frontend:v0
     volumes:
       - ../frontend/:/app/result_build/
