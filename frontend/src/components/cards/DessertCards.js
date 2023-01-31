@@ -8,7 +8,7 @@ function DessertCards() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/desserts', {method: 'GET'})
+    fetch('/api/desserts', { method: 'GET' })
       .then((response) => response.json())
       .then((json) => setDesserts(json))
       .catch((error) => setError(error.message))
@@ -21,9 +21,11 @@ function DessertCards() {
   return (
     <div className="dessert-cards">
       {isLoading ? (
-        <h1>Loading...</h1>
+        <h1>Загрузка...</h1>
       ) : (
-        desserts['results'].map((dessert) => <DessertCard {...dessert} key={dessert.id} />)
+        desserts['results'].map((dessert) => (
+          <DessertCard {...dessert} key={dessert.id} />
+        ))
       )}
     </div>
   );

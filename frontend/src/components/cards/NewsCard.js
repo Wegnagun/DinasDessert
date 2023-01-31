@@ -5,9 +5,7 @@ function NewsCard({ pub_date, title, image, text }) {
     <div className="news-card">
       <img
         className="img"
-        src={
-          image !== null ? image : null
-        }
+        src={image !== null ? image : null}
         alt={image} /* вставить дефолтное изображение! */
       ></img>
       <h1>{title}</h1>

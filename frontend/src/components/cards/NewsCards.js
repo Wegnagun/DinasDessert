@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import NewsCard from './NewsCard';
 import './NewsCards.css';
-import DessertCard from "./DessertCard";
 
 function NewsCards() {
   const [news, setNews] = useState([]);
@@ -9,7 +8,7 @@ function NewsCards() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/news', {method: 'GET'})
+    fetch('/api/news', { method: 'GET' })
       .then((response) => response.json())
       .then((json) => setNews(json))
       .catch((error) => setError(error.message))
@@ -22,7 +21,7 @@ function NewsCards() {
   return (
     <div className="news-cards">
       {isLoading ? (
-        <h1>Loading...</h1>
+        <h1>Загрузка...</h1>
       ) : (
         news['results'].map((item) => <NewsCard {...item} key={item.id} />)
       )}
