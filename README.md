@@ -3,13 +3,20 @@
 десерты Дины
 
 ---
+
 ##### мои заметки:
+
 ```
-sudo docker build -t wegnagun/dessets-backend:v0 .  
+sudo docker build -t wegnagun/dessets-backend:v0 .
 sudo docker push wegnagun/dessets-backend:v0
-sudo docker-compose up  
- ```
----  
+sudo docker-compose up
+
+docker container ps
+docker exec -it <mycontainer> bash
+```
+
+---
+
 ## Автор
 
 [Александр Фокин](https://github.com/Wegnagun)
@@ -18,8 +25,8 @@ sudo docker-compose up
 
 ### Стек технологий:
 
-Frontend: React, React-dom, React-router-dom,   
-Backend: Django, DjangoRestFramework, Pillow, Djoser  
+Frontend: React, React-dom, React-router-dom,  
+Backend: Django, DjangoRestFramework, Pillow, Djoser
 
 ### Установка (backend):
 

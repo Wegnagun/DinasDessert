@@ -11,6 +11,7 @@ class News(models.Model):
         verbose_name='Текст новости'
     )
     pub_date = models.DateTimeField(
+        required=False,
         verbose_name='Дата публикации',
         auto_now_add=True
     )
