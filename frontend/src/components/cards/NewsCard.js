@@ -6,9 +6,7 @@ function NewsCard({ pub_date, title, image, text }) {
       <img
         className="img"
         src={
-          image !== 'empty'
-            ? require('../data/testimages/' + image + '.jpg')
-            : null
+          image !== null ? image : null
         }
         alt={image} /* вставить дефолтное изображение! */
       ></img>

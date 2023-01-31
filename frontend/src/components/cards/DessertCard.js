@@ -6,8 +6,7 @@ function DessertCard({ name, text, image }) {
       <img
         className="img"
         src={
-          image !== null ? image
-            : null
+          image !== null ? image : null
         }
         alt={image} /* вставить дефолтное изображение! */
       />
