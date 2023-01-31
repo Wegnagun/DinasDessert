@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d07dcf20-48cd-45c2-add5-956f42aef155" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/cards/DessertCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/cards/DessertCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/cards/DessertCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/cards/DessertCards.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <workItem from="1674834058054" duration="6112000" />
       <workItem from="1674900522985" duration="8122000" />
       <workItem from="1674988922870" duration="4626000" />
-      <workItem from="1675150888360" duration="3003000" />
+      <workItem from="1675150888360" duration="8490000" />
     </task>
     <servers />
   </component>
