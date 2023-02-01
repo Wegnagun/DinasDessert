@@ -4,7 +4,7 @@ from .models import Dessert
 
 
 class DessertSerializer(serializers.ModelSerializer):
-    """ Сериализатор модели десертов"""
+    """ Сериализатор десертов. """
 
     class Meta:
         model = Dessert

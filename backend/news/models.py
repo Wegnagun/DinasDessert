@@ -3,15 +3,18 @@ from django.db import models
 
 class News(models.Model):
     """ Модель Новостей """
+
     title = models.CharField(
         max_length=250,
         verbose_name='Заголовок новости'
     )
     text = models.TextField(
+        max_length=250,
         verbose_name='Текст новости'
     )
     pub_date = models.DateTimeField(
-        required=False,
+        null=True,
+        blank=True,
         verbose_name='Дата публикации',
         auto_now_add=True
     )

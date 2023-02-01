@@ -9,6 +9,9 @@ __pycache__/
 # REACT
 frontend/node_modules/
 
+# DJANGO
+backend/media/
+
 # Distribution / packaging
 .Python
 build/

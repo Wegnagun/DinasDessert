@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Dessert(models.Model):
-    """ Модель Десертов """
+    """ Модель Десертов. """
 
     name = models.CharField(
         max_length=250,
@@ -21,7 +21,7 @@ class Dessert(models.Model):
         upload_to='desserts/images'
     )
     pub_date = models.DateTimeField(
-        required=False,
+        blank=True,
         verbose_name='Дата публикации',
         auto_now_add=True
     )
