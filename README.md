@@ -55,5 +55,5 @@ Backend: Django, DjangoRestFramework, Pillow, Djoser
 ### Установка (frontend):
 
 перейти в дирректорию frontend  
-`npm i`
+`npm i`  
 `npm start`
