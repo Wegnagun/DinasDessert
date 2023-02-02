@@ -1,11 +1,10 @@
-import Text from 'react';
 import photo from './images/dinasphoto.jpg';
 import './home.css';
 
 function Home() {
   return (
     <div className="dinascard">
-      <img className="img" src={photo} />
+      <img className="img" src={photo} alt="" />
       <p>
         Абсолютная погрешность, следовательно, естественно специфицирует график
         функции многих переменных, откуда следует доказываемое равенство.
