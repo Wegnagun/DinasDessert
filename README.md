@@ -7,8 +7,8 @@
 ##### мои заметки:
 
 ```
-sudo docker build -t wegnagun/dessets-backend:v0 .
-sudo docker push wegnagun/dessets-backend:v0
+sudo docker build -t wegnagun/desserts-backend:v0 .
+sudo docker push wegnagun/desserts-backend:v0
 sudo docker-compose up
 
 docker container ps
