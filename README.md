@@ -57,3 +57,16 @@ Backend: Django, DjangoRestFramework, Pillow, Djoser
 перейти в дирректорию frontend  
 `npm i`  
 `npm start`
+
+---
+
+#### Ресурсы проекта:
+
+.../api/users/ - эндпоинт пользователей;  
+.../api/desserts/ - эндпоинт дессертов;  
+.../api/rewies/ - эндпоинт отзывов (пока еще нет);  
+.../api/news/ - эндпоинт новостей сайта;  
+.../admin/ - эндпоинт админки сайта;  
+.../api/auth/ - действия с djoser авторизацией;
+
+---
