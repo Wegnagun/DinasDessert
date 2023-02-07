@@ -1,3 +1,4 @@
+import { ColorRing } from 'react-loader-spinner';
 import { useState, useEffect } from 'react';
 import NewsCard from './NewsCard';
 import './NewsCards.css';
@@ -21,7 +22,15 @@ function NewsCards() {
   return (
     <div className="news-cards">
       {isLoading ? (
-        <h1>Загрузка...</h1>
+        <ColorRing
+          visible={true}
+          height="80"
+          width="80"
+          ariaLabel="blocks-loading"
+          wrapperStyle={{}}
+          wrapperClass="blocks-wrapper"
+          colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
+        />
       ) : (
         news['results'].map((item) => <NewsCard {...item} key={item.id} />)
       )}

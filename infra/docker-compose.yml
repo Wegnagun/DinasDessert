@@ -16,8 +16,8 @@ services:
     #    depends_on:
     #      - db
     env_file:
-      #      - ../infra/.env
-      - ../backend/.env
+      - ../infra/.env
+      # - ../backend/.env
 
   frontend:
     image: wegnagun/desserts-frontend:v0
