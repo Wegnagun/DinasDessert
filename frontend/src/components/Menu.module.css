@@ -2,10 +2,6 @@
   display: none;
 }
 
-.mobilemenu {
-  display: none;
-}
-
 @media screen and (min-width: 750px) {
   .menu {
     padding: 5px;
@@ -16,6 +12,10 @@
     margin-bottom: 50px;
   }
 
+  .mobilemenu {
+    display: none;
+  }
+
   .button {
     text-decoration: none;
     margin-right: 25px;
@@ -24,8 +24,20 @@
 
 @media screen and (max-width: 750px) {
   .mobilemenu {
+    margin-top: 5px;
+    margin-bottom: 15px;
     padding: 5px;
+    position: relative;
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .openmenu {
+    background-color: #f8e4a271;
+    width: 150px;
+  }
+  .closedmenu {
+    display: none;
   }
 }

@@ -36,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../foodgram-project-react" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -64,6 +64,7 @@
       <workItem from="1674988922870" duration="4626000" />
       <workItem from="1675150888360" duration="12756000" />
       <workItem from="1675269127088" duration="6198000" />
+      <workItem from="1675860653306" duration="18000" />
     </task>
     <servers />
   </component>
