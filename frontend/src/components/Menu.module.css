@@ -28,15 +28,14 @@
     margin-bottom: 15px;
     padding: 5px;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
   }
 
   .openmenu {
-    background-color: #f8e4a271;
-    width: 150px;
+    display: flex;
+    justify-content: left;
   }
+
   .closedmenu {
     display: none;
   }
