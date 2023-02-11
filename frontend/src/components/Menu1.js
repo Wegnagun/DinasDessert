@@ -2,48 +2,29 @@ import { Turn as Hamburger } from 'hamburger-react';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './Menu.module.css';
+import Button from './UI/Button';
 
 const Menu = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
     <>
-      <div className={styles.menu}>
-        <NavLink
-          to="."
-          className={({ isActive }) =>
-            isActive ? styles.activebtn : styles.button
-          }
-        >
-          Обо мне
+      <nav className={styles.menu}>
+        <NavLink to="." className={styles.button}>
+          <Button>Обо мне</Button>
         </NavLink>
-        <NavLink
-          to="news"
-          className={({ isActive }) =>
-            isActive ? styles.activebtn : styles.button
-          }
-        >
-          Новости
+        <NavLink to="news" className={styles.button}>
+          <Button>Новости</Button>
         </NavLink>
-        <NavLink
-          to="desserts"
-          className={({ isActive }) =>
-            isActive ? styles.activebtn : styles.button
-          }
-        >
-          Тортики
+        <NavLink to="desserts" className={styles.button}>
+          <Button>Тортики</Button>
         </NavLink>
-        <NavLink
-          to="reviews"
-          className={({ isActive }) =>
-            isActive ? styles.activebtn : styles.button
-          }
-        >
-          Отзывы
+        <NavLink to="reviews" className={styles.button}>
+          <Button>Отзывы</Button>
         </NavLink>
-      </div>
-      {/* <div className={styles.menu}>
-        <div className={styles.burger}>
+      </nav>
+      <div className={styles.openmenu}>
+        <div className={styles.mobilemenu}>
           <Hamburger
             toggled={isOpen}
             toggle={setOpen}
@@ -73,7 +54,7 @@ const Menu = () => {
             </NavLink>
           </div>
         </div>
-      </div> */}
+      </div>
     </>
   );
 };

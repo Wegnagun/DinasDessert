@@ -1,8 +1,197 @@
-.menu {
-  display: none;
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    height: 2vh;
+    width: 90vw;
+    margin: 20px;
+  }
+
+  .button {
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1.9rem;
+    border: none;
+    font-size: 1.1rem;
+    color: #420842;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .activebtn {
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1.9rem;
+    border: none;
+    font-size: 1.1rem;
+    color: #420842;
+    font-weight: bold;
+  }
 }
 
-@media screen and (min-width: 750px) {
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    height: 2vh;
+    width: 80vw;
+    margin: 20px;
+  }
+
+  .button {
+    display: flex;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1.9rem;
+    border: none;
+    font-size: 1.1rem;
+    color: #420842;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .activebtn {
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1.9rem;
+    border: none;
+    font-size: 1.1rem;
+    color: #420842;
+    font-weight: bold;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    height: 2vh;
+    width: 90vw;
+    margin: 25px;
+  }
+
+  .button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 1.8rem;
+    color: #420842;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .activebtn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 1.8rem;
+    color: #420842;
+    font-weight: bold;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .button {
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1.9rem;
+    border: none;
+    font-size: 2rem;
+    color: #420842;
+    text-decoration: none;
+  }
+
+  .activebtn {
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1.9rem;
+    font-weight: bold;
+    border: none;
+    font-size: 2rem;
+    color: #420842;
+    text-decoration: underline;
+  }
+
+  .button:hover {
+    background-color: #f9c5bd;
+    border-radius: 50%;
+  }
+
+  .activebtn:hover {
+    background-color: #f9c5bd;
+    border-radius: 50%;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .button {
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1.9rem;
+    border: none;
+    font-size: 2rem;
+    color: #420842;
+    text-decoration: none;
+  }
+
+  .activebtn {
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1.9rem;
+    font-weight: bold;
+    border: none;
+    font-size: 2rem;
+    color: #420842;
+    text-decoration: underline;
+  }
+
+  .button:hover {
+    background-color: #f9c5bd;
+    border-radius: 50%;
+  }
+
+  .activebtn:hover {
+    background-color: #f9c5bd;
+    border-radius: 50%;
+  }
+}
+
+/*@media screen and (min-width: 750px) {
   .menu {
     padding: 5px;
     display: flex;
@@ -39,4 +228,4 @@
   .closedmenu {
     display: none;
   }
-}
+}*/
