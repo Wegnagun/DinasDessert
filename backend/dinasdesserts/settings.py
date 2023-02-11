@@ -6,16 +6,16 @@ load_dotenv()
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('KEY', 'enter you Secret key')
 DEBUG = os.environ.get('DEBUG', False)
-#ALLOWED_HOSTS = os.environ.get('HOSTS', ['127.0.0.1'])
+# ALLOWED_HOSTS = os.environ.get('HOSTS', ['127.0.0.1'])
 ALLOWED_HOSTS = ['130.193.51.228']
 ALLOWED_ORIGINS = ['130.193.51.228']
 CSRF_TRUSTED_ORIGINS = ['130.193.51.228']
-#ALLOWED_ORIGINS = os.environ.get(
+# ALLOWED_ORIGINS = os.environ.get(
 #    'ORIGINS', ['http://127.0.0.1', 'http://localhost']
-#)
-#CSRF_TRUSTED_ORIGINS = os.environ.get(
+# )
+# CSRF_TRUSTED_ORIGINS = os.environ.get(
 #    'ORIGINS', ['http://127.0.0.1', 'http://localhost']
-#)
+# )
 
 INSTALLED_APPS = [
     'django.contrib.admin',
