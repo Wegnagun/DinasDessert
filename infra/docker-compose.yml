@@ -8,7 +8,7 @@ services:
   #      - ../infra/.env
 
   backend:
-    image: wegnagun/desserts-backend:v0
+    image: wegnagun/dinasdessert-back:latest
     restart: always
     volumes:
       - static_value:/app/static/
@@ -17,10 +17,9 @@ services:
     #      - db
     env_file:
       - ../infra/.env
-      # - ../backend/.env
 
   frontend:
-    image: wegnagun/desserts-frontend:v0
+    image: wegnagun/dinasdessert-front:latest
     volumes:
       - ../frontend/:/app/result_build/
     depends_on:
