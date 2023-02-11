@@ -1,11 +1,11 @@
 version: '3.11'
 services:
-  #  db:
-  #    image: postgres:13.0-alpine
-  #    volumes:
-  #      - db_value:/var/lib/postgresql/data/
-  #    env_file:
-  #      - ../infra/.env
+  db:
+    image: postgres:13.0-alpine
+    volumes:
+      - db_value:/var/lib/postgresql/data/
+    env_file:
+      - ../infra/.env
 
   backend:
     image: wegnagun/dinasdesserts-back:latest
@@ -13,8 +13,8 @@ services:
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
-    #    depends_on:
-    #      - db
+    depends_on:
+      - db
     env_file:
       - ../infra/.env
 
