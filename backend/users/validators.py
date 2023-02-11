@@ -6,3 +6,4 @@ def validate_not_me_name(value):
         raise ValidationError(
             'Использовать никнейм "me" запрещено.'
         )
+        
