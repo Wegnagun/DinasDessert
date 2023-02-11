@@ -41,12 +41,12 @@ jobs:
           no-cache: true
           push: true
           context: ./backend/
-          tags: ${{ secrets.DOCKER_USERNAME }}/dinasdessert-back:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/dinasdesserts-back:latest
   build_and_push_frontend_to_docker_hub:
     name: Push Docker frontend image to Docker Hub
     runs-on: ubuntu-latest
     needs: build_and_push_backend_to_docker_hub
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
@@ -63,7 +63,7 @@ jobs:
           no-cache: true
           push: true
           context: ./backend/
-          tags: ${{ secrets.DOCKER_USERNAME }}/dinasdessert-front:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/dinasdesserts-front:latest
 
   send_message:
     runs-on: ubuntu-latest
