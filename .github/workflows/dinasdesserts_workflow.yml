@@ -24,7 +24,7 @@ jobs:
     name: Push Docker backend image to Docker Hub
     runs-on: ubuntu-latest
     needs: tests
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
