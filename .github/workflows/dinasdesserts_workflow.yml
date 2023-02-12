@@ -62,7 +62,7 @@ jobs:
         with:
           no-cache: true
           push: true
-          context: ./backend/
+          context: ./frontend/
           tags: ${{ secrets.DOCKER_USERNAME }}/dinasdesserts-front:latest
 
   deploy:
