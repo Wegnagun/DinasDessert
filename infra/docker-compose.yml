@@ -11,7 +11,7 @@ services:
     image: wegnagun/dinasdesserts-back:latest
     restart: always
     volumes:
-      - static_value:/app/static/
+      - static_value:/app/static/ # d
       - media_value:/app/media/
     depends_on:
       - db
