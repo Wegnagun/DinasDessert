@@ -6,9 +6,12 @@ load_dotenv()
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('KEY', 'enter you Secret key')
 DEBUG = os.environ.get('DEBUG', False)
-ALLOWED_HOSTS = ['http://84.252.130.223']
-ALLOWED_ORIGINS = ['http://84.252.130.223']
-CSRF_TRUSTED_ORIGINS = ['http://84.252.130.223']
+ALLOWED_HOSTS = ['*']
+ALLOWED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['*']
+#  ALLOWED_HOSTS = ['http://84.252.130.223']
+#  ALLOWED_ORIGINS = ['http://84.252.130.223']
+#  CSRF_TRUSTED_ORIGINS = ['http://84.252.130.223']
 
 
 INSTALLED_APPS = [
