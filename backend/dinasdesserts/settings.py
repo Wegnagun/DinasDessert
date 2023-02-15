@@ -8,7 +8,7 @@ SECRET_KEY = os.environ.get('KEY', 'enter you Secret key')
 DEBUG = os.environ.get('DEBUG', False)
 ALLOWED_HOSTS = os.environ.get("HOSTS", "").split(",")
 ALLOWED_ORIGINS = os.environ.get("ORIGINS", "").split(",")
-CSRF_TRUSTED_ORIGINS = os.environ.get("ORIGINS", "").split(",")
+CSRF_TRUSTED_ORIGINS = os.environ.get("CSRF_ORIGINS", "").split(",")
 #CSRF_COOKIE_DOMAIN = os.environ.get("CSRF_DOMAIN", "").split(",")
 
 #  CSRF_COOKIE_DOMAIN = '127.0.0.1'
