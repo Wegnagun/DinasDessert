@@ -1,5 +1,5 @@
 function Reviews() {
-  return <h1>Отзывы</h1>;
+  return <h1>Отзывы пока в разработке(</h1>;
 }
 
 export default Reviews;

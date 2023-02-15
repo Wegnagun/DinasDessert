@@ -26,7 +26,9 @@ docker exec -it <mycontainer> bash
 ### Стек технологий:
 
 Frontend: React, React-dom, React-router-dom,  
-Backend: Django, DjangoRestFramework, Pillow, Djoser
+Backend: Django, DjangoRestFramework, Pillow, Djoser, gunicorn  
+Server: Docker, Docker-compose, nginx
+Base: PostgreSQL
 
 ### Установка (backend):
 
