@@ -2,6 +2,7 @@ import { ColorRing } from 'react-loader-spinner';
 import { useState, useEffect } from 'react';
 import DessertCard from './DessertCard';
 import './DessertCards.css';
+import desserts_data from '../data/desserts'; // для тестов
 
 function DessertCards() {
   const [desserts, setDesserts] = useState([]);
@@ -20,6 +21,11 @@ function DessertCards() {
   }
 
   return (
+    /*     <div className="dessert-cards">
+      {desserts_data.map((dessert) => {
+        return <DessertCard {...dessert} key={dessert.id} />;
+      })}
+    </div> */
     <div className="dessert-cards">
       {isLoading ? (
         <ColorRing
@@ -32,7 +38,6 @@ function DessertCards() {
           colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
         />
       ) : (
-        /*<h1>Загрузка...</h1>*/
         desserts['results'].map((dessert) => (
           <DessertCard {...dessert} key={dessert.id} />
         ))

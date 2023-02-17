@@ -52,7 +52,7 @@ Base: PostgreSQL
 
 перейти в дирректорию backend
 
-`pip install -r requirements.txt `
+`pip install -r requirements.txt`
 
 ### Установка (frontend):
 

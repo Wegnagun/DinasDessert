@@ -1,15 +1,57 @@
-.dessert-card {
-  max-width: calc((100% - 20px) / 4);
-  padding: 10px;
-  margin: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #f8e4a2;
-  border: 2px solid #460247;
-  border-radius: 5%;
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .dessert-card {
+    max-width: 130px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f8e4a2;
+    border: 2px solid #460247;
+    border-radius: 5%;
+  }
+
+  .dessert-card .img {
+    border-radius: 5%;
+  }
+
+  .dessert-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    overflow-wrap: break-word;
+  }
+
+  .dessert-description {
+    margin-top: 4px;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+  }
 }
 
-.dessert-card .img {
-  border-radius: 5%;
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .dessert-card {
+    max-width: calc((100% - 20px) / 4);
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f8e4a2;
+    border: 2px solid #460247;
+    border-radius: 5%;
+  }
+
+  .dessert-card .img {
+    border-radius: 5%;
+  }
 }
