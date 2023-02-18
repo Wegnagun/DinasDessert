@@ -21,7 +21,7 @@ function NewsCards() {
   }
 
   return (
-    /* <div className="news-cards">
+    /*     <div className="news-cards">
       {newslist.map((news) => {
         return <NewsCard {...news} key={news.id} />;
       })}
