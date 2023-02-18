@@ -1,3 +1,12 @@
 .App {
   text-align: center;
+  font-family: Alegreya-SemiBold;
+}
+
+@font-face {
+  font-family: Alegreya-SemiBold;
+  src: url('./fonts/Alegreya-SemiBold.ttf');
+}
+.alegreya-semibold {
+  font-family: Alegreya-SemiBold;
 }

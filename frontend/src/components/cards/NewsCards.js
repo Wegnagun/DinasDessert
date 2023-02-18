@@ -2,6 +2,7 @@ import { ColorRing } from 'react-loader-spinner';
 import { useState, useEffect } from 'react';
 import NewsCard from './NewsCard';
 import './NewsCards.css';
+import newslist from '../data/newslist'; // для тестов
 
 function NewsCards() {
   const [news, setNews] = useState([]);
@@ -20,6 +21,11 @@ function NewsCards() {
   }
 
   return (
+    /* <div className="news-cards">
+      {newslist.map((news) => {
+        return <NewsCard {...news} key={news.id} />;
+      })}
+    </div> */
     <div className="news-cards">
       {isLoading ? (
         <ColorRing
