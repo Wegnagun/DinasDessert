@@ -3,6 +3,7 @@ const desserts_data = [
     id: 1,
     name: 'Птичье молочко',
     text: 'Торт птичье молоко',
+    image: './1.jpg',
   },
   {
     id: 2,
