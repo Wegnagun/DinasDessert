@@ -6,7 +6,8 @@ function DessertCard({ name, text, image }) {
     <div className="dessert-card">
       <img
         className="img"
-        src={image !== undefined && image !== null ? image : pic}
+        /* src={image !== undefined && image !== null ? image : pic} */
+        src={image}
         alt="изображение отсутствует("
       />
       <p className="dessert-title">{name}</p>
