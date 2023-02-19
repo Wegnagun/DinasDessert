@@ -1,9 +1,9 @@
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
   .dessert-card {
-    max-width: 130px;
-    padding: 5px;
-    margin: 10px;
+    width: 900px;
+    padding: 15px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -14,18 +14,6 @@
 
   .dessert-card .img {
     border-radius: 5%;
-  }
-
-  .dessert-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    overflow-wrap: break-word;
-  }
-
-  .dessert-description {
-    margin-top: 4px;
-    font-size: 1rem;
-    overflow-wrap: break-word;
   }
 }
 
@@ -40,16 +28,15 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .dessert-card {
-    max-width: calc((100% - 20px) / 4);
-    padding: 10px;
-    margin: 15px;
+    width: 900px;
+    padding: 25px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #f8e4a2;
     border: 2px solid #460247;
     border-radius: 5%;
-    margin-bottom: 25px;
   }
 
   .dessert-card .img {

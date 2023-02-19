@@ -3,7 +3,7 @@ const desserts_data = [
     id: 1,
     name: 'Птичье молочко',
     text: 'Торт птичье молоко',
-    image: './1.jpg',
+    ingredients: ['корж', 'начинка', 'еще какая-то хрень'],
   },
   {
     id: 2,
