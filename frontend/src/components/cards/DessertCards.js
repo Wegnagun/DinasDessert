@@ -21,7 +21,7 @@ function DessertCards() {
   }
 
   return (
-    /*     <div className="dessert-cards">
+    /* <div className="dessert-cards">
       {desserts_data.map((dessert) => {
         return <DessertCard {...dessert} key={dessert.id} />;
       })}

@@ -1,16 +1,13 @@
 import './DessertCard.css';
-import pic from '../data/1.jpg';
+import pic from '../data/no_image.png';
 
 function DessertCard({ name, text, image }) {
   return (
     <div className="dessert-card">
       <img
         className="img"
-        /* src={pic} // для тестов!!! */
-        src={
-          image !== null || undefined ? image : require('../data/1.jpg').default
-        }
-        alt="dessert"
+        src={image !== undefined && null ? image : pic}
+        alt="изображение отсутствует("
       />
       <p className="dessert-title">{name}</p>
       <p className="dessert-description">{text}</p>

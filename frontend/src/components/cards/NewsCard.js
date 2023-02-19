@@ -1,14 +1,13 @@
 import './NewsCard.css';
-import pic from '../data/1.jpg';
+import pic from '../data/no_image.png';
 
 function NewsCard({ pub_date, title, image, text }) {
   return (
     <div className="news-card">
       <img
         className="img"
-        // src={pic} // для тестов!!!
-        src={image !== null ? image : null}
-        alt={'news'} /* вставить дефолтное изображение! */
+        src={image !== undefined && null ? image : pic}
+        alt="изображение отсутствует("
       ></img>
       <p className="news-title">{title}</p>
       <p className="news-text">{`${text.slice(0, 250)}...`}</p>
