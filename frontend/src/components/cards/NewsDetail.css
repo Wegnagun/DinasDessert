@@ -1,19 +1,18 @@
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
-  .news-card {
-    padding: 5px;
-    margin: 10px;
-    margin-bottom: 20px;
-    max-width: 80%;
+  .news-item {
+    width: 250px;
+    padding: 15px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #f8e4a2;
     border: 2px solid #460247;
-    border-radius: 2%;
+    border-radius: 5%;
   }
 
-  .news-card .img {
+  .news-item .img {
     margin: 0 auto;
     margin-bottom: 15px;
     max-width: 250px;
@@ -40,7 +39,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-  .news-card {
+  .news-item {
     padding: 5px;
     margin: 10px;
     margin-bottom: 20px;
@@ -53,7 +52,7 @@
     border-radius: 2%;
   }
 
-  .news-card .img {
+  .news-item .img {
     margin: 0 auto;
     margin-bottom: 15px;
     max-width: 300px;
@@ -80,7 +79,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
-  .news-card {
+  .news-item {
     padding: 5px;
     margin: 10px;
     margin-bottom: 30px;
@@ -93,7 +92,7 @@
     border-radius: 2%;
   }
 
-  .news-card .img {
+  .news-item .img {
     margin: 0 auto;
     margin-bottom: 15px;
     max-width: 250px;
@@ -120,20 +119,19 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
-  .news-card {
-    padding: 15px;
-    margin: 15px;
-    margin-bottom: 50px;
-    max-width: 500px;
+  .news-item {
+    width: 500px;
+    padding: 25px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #f8e4a2;
     border: 2px solid #460247;
     border-radius: 5%;
   }
 
-  .news-card .img {
+  .news-item .img {
     margin: 0 auto;
     margin-bottom: 25px;
     max-width: 350px;

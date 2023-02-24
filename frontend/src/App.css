@@ -3,6 +3,10 @@
   font-family: Alegreya-SemiBold;
 }
 
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: Alegreya-SemiBold;
   src: url('./fonts/Alegreya-SemiBold.ttf');
