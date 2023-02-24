@@ -13,6 +13,7 @@ sudo docker-compose up
 
 sudo docker container ps
 sudo docker exec -it <mycontainer> bash
+sudo docker image prune
 
 psql -U dinasadmin
 ```
