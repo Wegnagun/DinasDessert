@@ -52,6 +52,13 @@
     border-radius: 5%;
   }
 
+  .dessert-title {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    overflow-wrap: break-word;
+  }
+
   .dessert-card .img {
     border-radius: 5%;
   }
