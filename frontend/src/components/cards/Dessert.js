@@ -13,9 +13,8 @@ function Dessert() {
     fetch(`/api/desserts/${id}/`, { method: 'GET' })
       .then((response) => response.json())
       .then((json) => setDessert(json))
-      .catch((error) => setError(error.message))
-      .finally(() => setIsLoading(false));
-  }, []);
+      .catch((error) => setError(error.message));
+  });
   if (error) {
     return <h1>Error: {error}</h1>;
   }

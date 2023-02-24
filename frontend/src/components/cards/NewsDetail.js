@@ -13,7 +13,7 @@ function NewsDetail() {
       .then((response) => response.json())
       .then((json) => setNews(json))
       .catch((error) => setError(error.message));
-  }, []);
+  });
   if (error) {
     return <h1>Error: {error}</h1>;
   }
