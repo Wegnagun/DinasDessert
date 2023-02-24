@@ -28,4 +28,3 @@ class DessertAdmin(admin.ModelAdmin):
 
 
 admin.site.unregister(Group)
-
