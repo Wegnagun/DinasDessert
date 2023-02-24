@@ -6,7 +6,9 @@ function Ingredients(props) {
   return (
     <>
       {data.map((ingredient, index) => {
-        return <p className="ingredient" key={index}>{`- ${ingredient}`}</p>;
+        return (
+          <p className="ingredient" key={index}>{`- ${ingredient.name}`}</p>
+        );
       })}
     </>
   );
