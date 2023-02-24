@@ -51,7 +51,7 @@ function Dessert() {
             alt="изображение отсутствует("
           />
           <p className="dessert-title">{dessert.name}</p>
-          <p className="dessert-description">{dessert.short_description}</p>
+          <p className="dessert-description">{dessert.text}</p>
           <div className="ingredients-container">
             <div className="ingredients">
               {'Состав:\n'}

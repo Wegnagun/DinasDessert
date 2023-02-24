@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import './DessertCard.css';
 import pic from '../data/no_image.png';
 
-function DessertCard({ name, text, image, id }) {
+function DessertCard({ name, image, id, short_description }) {
   return (
     <div className="dessert-card">
       <img
@@ -14,7 +14,7 @@ function DessertCard({ name, text, image, id }) {
       <NavLink to={`${id}`} className="dessert-title">
         {name}
       </NavLink>
-      <p className="dessert-description">{text}</p>
+      <p className="dessert-description">{short_description}</p>
     </div>
   );
 }
