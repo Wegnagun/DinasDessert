@@ -11,8 +11,10 @@ sudo docker build -t wegnagun/desserts-backend:v0 .
 sudo docker push wegnagun/desserts-backend:v0
 sudo docker-compose up
 
-docker container ps
-docker exec -it <mycontainer> bash
+sudo docker container ps
+sudo docker exec -it <mycontainer> bash
+
+psql -U dinasadmin
 ```
 
 ---

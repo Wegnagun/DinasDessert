@@ -5,16 +5,16 @@ load_dotenv()
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('KEY', 'enter you Secret key')
-"""DEBUG = os.environ.get('DEBUG', False)
+DEBUG = os.environ.get('DEBUG', False)
 ALLOWED_HOSTS = os.environ.get("HOSTS", "").split(",")
 ALLOWED_ORIGINS = os.environ.get("ORIGINS", "").split(",")
-CSRF_TRUSTED_ORIGINS = os.environ.get("CSRF_ORIGINS", "").split(",") """
+CSRF_TRUSTED_ORIGINS = os.environ.get("CSRF_ORIGINS", "").split(",")
 
 # dev front
-DEBUG = True
+""" DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1']
 ALLOWED_ORIGINS = ['http://127.0.0.1']
-CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1'] """
 
 
 INSTALLED_APPS = [
@@ -59,15 +59,15 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'dinasdesserts.wsgi.application'
 
-DATABASES = {
+""" DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
-}
+} """
 
 #  для подключения postgres
-""" DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': os.getenv('DB_ENGINE'),
         'NAME': os.getenv('DB_NAME'),
@@ -76,7 +76,7 @@ DATABASES = {
         'HOST': os.getenv('DB_HOST'),
         'PORT': os.getenv('DB_PORT')
     }
-} """
+}
 
 AUTH_PASSWORD_VALIDATORS = [
     {

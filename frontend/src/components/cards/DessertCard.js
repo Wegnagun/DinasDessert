@@ -11,10 +11,9 @@ function DessertCard({ name, text, image, id }) {
         // src={image !== null ? image : pic}
         alt="изображение отсутствует("
       />
-      <NavLink to={`${id}`} className="">
-        Обо мне
+      <NavLink to={`${id}`} className="dessert-title">
+        {name}
       </NavLink>
-      <p className="dessert-title">{name}</p>
       <p className="dessert-description">{text}</p>
     </div>
   );
