@@ -4,18 +4,16 @@ import pic from '../data/no_image.png';
 
 function DessertCard({ name, image, id, short_description }) {
   return (
-    <div className="dessert-card">
+    <NavLink to={`${id}`} className="dessert-card">
       <img
         className="img"
-        src={image !== undefined ? image : pic}
-        // src={image !== null ? image : pic}
+        // src={image !== undefined ? image : pic}
+        src={image !== null ? image : pic}
         alt="изображение отсутствует("
       />
-      <NavLink to={`${id}`} className="dessert-title">
-        {name}
-      </NavLink>
+      <p className="dessert-title">{name}</p>
       <p className="dessert-description">{short_description}</p>
-    </div>
+    </NavLink>
   );
 }
 

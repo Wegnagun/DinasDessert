@@ -10,9 +10,6 @@ function NewsCard({ pub_date, title, image, text, id }) {
         src={image !== null ? image : pic}
         alt="изображение отсутствует("
       ></img>
-      {/* <NavLink to={`${id}`} className="news-title">
-        {title}
-      </NavLink> */}
       <p className="news-title">{title}</p>
       <p className="news-text">{`${text.slice(0, 250)}....Подробнее`}</p>
       <p className="pub-date">дата публикации: {`${pub_date.slice(0, 10)}`}</p>
