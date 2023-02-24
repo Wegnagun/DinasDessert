@@ -1,4 +1,6 @@
+import { ColorRing } from 'react-loader-spinner';
 import { useParams } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import desserts_data from '../data/desserts';
 import Ingredients from './Ingredients';
 import pic from '../data/no_image.png';

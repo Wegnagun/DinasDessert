@@ -9,7 +9,7 @@ function DessertCards() {
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(true);
 
-  /*  useEffect(() => {
+  useEffect(() => {
     fetch('/api/desserts', { method: 'GET' })
       .then((response) => response.json())
       .then((json) => setDesserts(json))
@@ -18,15 +18,15 @@ function DessertCards() {
   }, []);
   if (error) {
     return <h1>Error: {error}</h1>;
-  } */
+  }
 
   return (
-    <div className="dessert-cards">
+    /* <div className="dessert-cards">
       {desserts_data.map((dessert) => {
         return <DessertCard {...dessert} key={dessert.id} />;
       })}
-    </div>
-    /* <div className="dessert-cards">
+    </div> */
+    <div className="dessert-cards">
       {isLoading ? (
         <ColorRing
           visible={true}
@@ -42,7 +42,7 @@ function DessertCards() {
           <DessertCard {...dessert} key={dessert.id} />
         ))
       )}
-    </div> */
+    </div>
   );
 }
 
