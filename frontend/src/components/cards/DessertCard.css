@@ -43,13 +43,13 @@
     max-width: calc((100% - 20px) / 4);
     padding: 10px;
     margin: 15px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #f8e4a2;
     border: 2px solid #460247;
     border-radius: 5%;
-    margin-bottom: 25px;
   }
 
   .dessert-card .img {

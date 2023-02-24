@@ -17,7 +17,7 @@ function Dessert() {
   const data = { ...result[0] };
   // для тестов!
   return (
-    <div className="dessert-card">
+    <div className="dessert-item">
       <img
         className="img"
         src={data.image !== undefined ? data.image : pic}
@@ -25,9 +25,11 @@ function Dessert() {
       />
       <p className="dessert-title">{data.name}</p>
       <p className="dessert-description">{data.text}</p>
-      <div className="dessert-ingredients">
-        {'Состав:\n'}
-        <Ingredients {...data.ingredients} />
+      <div className="ingredients-container">
+        <div className="ingredients">
+          {'Состав:\n'}
+          <Ingredients {...data.ingredients} />
+        </div>
       </div>
     </div>
   );

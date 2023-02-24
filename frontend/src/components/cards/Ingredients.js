@@ -1,9 +1,11 @@
+import './Ingredients.css';
+
 function Ingredients(props) {
   const data = Object.values(props);
   return (
     <>
       {data.map((ingredient, index) => {
-        return <h1 key={index}>{`- ${ingredient}`}</h1>;
+        return <p className="ingredient" key={index}>{`- ${ingredient}`}</p>;
       })}
     </>
   );

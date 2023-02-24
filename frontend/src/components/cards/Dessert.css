@@ -1,7 +1,7 @@
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
-  .dessert-card {
-    width: 900px;
+  .dessert-item {
+    width: 250px;
     padding: 15px;
     margin: 0 auto;
     display: flex;
@@ -12,8 +12,23 @@
     border-radius: 5%;
   }
 
-  .dessert-card .img {
+  .dessert-item .img {
     border-radius: 5%;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .ingredients-container {
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+
+  .ingredients {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 0.15rem solid #460247;
+    text-align: left;
   }
 }
 
@@ -27,8 +42,8 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
-  .dessert-card {
-    width: 900px;
+  .dessert-item {
+    width: 500px;
     padding: 25px;
     margin: 0 auto;
     display: flex;
@@ -39,7 +54,22 @@
     border-radius: 5%;
   }
 
-  .dessert-card .img {
+  .dessert-item .img {
     border-radius: 5%;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .ingredients-container {
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+
+  .ingredients {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 0.15rem solid #460247;
+    text-align: left;
   }
 }
