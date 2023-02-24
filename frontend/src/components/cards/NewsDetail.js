@@ -1,7 +1,7 @@
 import { ColorRing } from 'react-loader-spinner';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import './Dessert.css';
+import './NewsDetail.css';
 
 function NewsDetail() {
   const { id } = useParams();

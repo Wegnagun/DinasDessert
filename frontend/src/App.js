@@ -7,6 +7,7 @@ import Desserts from './components/Desserts';
 import Reviews from './components/Reviews';
 import NotFound from './components/NotFound';
 import Dessert from './components/cards/Dessert';
+import NewsDetail from './components/cards/NewsDetail';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
           <Route path="news" element={<News />} />
-          <Route path="news/:id" element={<Dessert />} />
+          <Route path="news/:id" element={<NewsDetail />} />
           <Route path="desserts" element={<Desserts />} />
           <Route path="desserts/:id" element={<Dessert />} />
           <Route path="reviews" element={<Reviews />} />

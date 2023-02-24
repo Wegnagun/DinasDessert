@@ -9,7 +9,7 @@ class News(models.Model):
         verbose_name='Заголовок новости'
     )
     text = models.TextField(
-        max_length=250,
+        max_length=1000,
         verbose_name='Текст новости'
     )
     pub_date = models.DateTimeField(
