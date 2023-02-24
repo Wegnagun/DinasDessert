@@ -1,7 +1,3 @@
-a {
-  text-decoration: none;
-}
-
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
   .news-card {
@@ -15,6 +11,7 @@ a {
     background-color: #f8e4a2;
     border: 2px solid #460247;
     border-radius: 2%;
+    color: #140114;
   }
 
   .news-card .img {
@@ -55,6 +52,7 @@ a {
     background-color: #f8e4a2;
     border: 2px solid #460247;
     border-radius: 2%;
+    color: #140114;
   }
 
   .news-card .img {
@@ -95,6 +93,7 @@ a {
     background-color: #f8e4a2;
     border: 2px solid #460247;
     border-radius: 2%;
+    color: #140114;
   }
 
   .news-card .img {
@@ -135,6 +134,7 @@ a {
     background-color: #f8e4a2;
     border: 2px solid #460247;
     border-radius: 5%;
+    color: #140114;
   }
 
   .news-card .img {
