@@ -13,7 +13,11 @@ function NewsCard({ pub_date, title, image, text, id }) {
       <NavLink to={`${id}`} className="news-title">
         {title}
       </NavLink>
-      <p className="news-text">{`${text.slice(0, 250)}...`}</p>
+      <p className="news-text">{`${text.slice(0, 250)}...${(
+        <NavLink to={`${id}`} className="news-text">
+          Подробнее
+        </NavLink>
+      )}`}</p>
       <p className="pub-date">дата публикации: {`${pub_date.slice(0, 10)}`}</p>
     </div>
   );
