@@ -21,7 +21,7 @@ function NewsDetail() {
     return <h1>Error: {error}</h1>;
   }
   return (
-    <div className="news-item">
+    <>
       {isLoading ? (
         <ColorRing
           visible={true}
@@ -33,7 +33,7 @@ function NewsDetail() {
           colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
         />
       ) : (
-        <>
+        <div className="news-item">
           <img
             className="img"
             src={news.image !== undefined ? news.image : pic}
@@ -44,9 +44,9 @@ function NewsDetail() {
           <p className="pub-date">
             дата публикации: {`${news.pub_date.slice(0, 10)}`}
           </p>
-        </>
+        </div>
       )}
-    </div>
+    </>
   );
 }
 
