@@ -1,6 +1,7 @@
 import { ColorRing } from 'react-loader-spinner';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import pic from '../data/no_image.png';
 import './NewsDetail.css';
 
 function NewsDetail() {
