@@ -3,9 +3,10 @@
   font-family: Alegreya-SemiBold;
 }
 
-a {
+a,
+p {
   text-decoration: none;
-  color: #460247;
+  color: #140114;
 }
 
 @font-face {
