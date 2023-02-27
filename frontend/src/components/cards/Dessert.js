@@ -22,7 +22,7 @@ function Dessert() {
     <div className="dessert-item">
       <img
         className="img"
-        src={dessert.image !== undefined ? dessert.image : pic}
+        src={image !== null ? image : pic}
         alt="изображение отсутствует("
       />
       <p className="dessert-title">{dessert.name}</p>

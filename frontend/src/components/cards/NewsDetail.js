@@ -14,6 +14,7 @@ function NewsDetail() {
       .then((json) => setNews(json))
       .catch((error) => setError(error.message));
   });
+  console.log(news); // udali
   if (error) {
     return <h1>Error: {error}</h1>;
   }
@@ -22,7 +23,7 @@ function NewsDetail() {
       <div className="news-item">
         <img
           className="img"
-          src={news.image !== undefined ? news.image : pic}
+          src={news.image !== null ? news.image : pic}
           alt="изображение отсутствует("
         />
         <p className="news-title">{news.name}</p>
